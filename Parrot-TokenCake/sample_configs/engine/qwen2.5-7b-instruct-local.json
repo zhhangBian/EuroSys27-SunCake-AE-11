@@ -1,0 +1,25 @@
+{
+    "engine_name": "qwen2.5-7b-instruct_local",
+    "model": "/home/youwei/bzh/model/Qwen/Qwen2.5-7B-Instruct",
+    "host": "localhost",
+    "port": 9001,
+    "engine_type": "builtin",
+    "random_seed": 0,
+    "tokenizer": "/home/youwei/bzh/model/Qwen/Qwen2.5-7B-Instruct",
+    "fill_chunk_size": -1,
+    "tasks_capacity": 128,
+    "instance": {
+        "num_kv_cache_blocks": 1024,
+        "attn_func": "xformers_with_buffer",
+        "dtype": "float16"
+    },
+    "scheduler": {
+        "max_batch_size": 128,
+        "max_num_batched_tokens": 2048,
+        "max_total_tokens": 4096
+    },
+    "serve_core": {
+        "host": "localhost",
+        "port": 9000
+    }
+}

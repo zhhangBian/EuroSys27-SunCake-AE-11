@@ -1,0 +1,11 @@
+engine,task,model,dataset,qps,kv_cache_usage
+SunCake,CodeWriter,Qwen2.5-14B,D2,0.05,85.7857315598549
+SunCake,CodeWriter,Qwen2.5-14B,D2,0.1,85.69865196078432
+SunCake,CodeWriter,Qwen2.5-14B,D2,0.2,86.55779467680607
+SunCake,CodeWriter,Qwen2.5-14B,D2,0.5,86.89832041343669
+SunCake,CodeWriter,Qwen2.5-14B,D2,1.0,86.9838331160365
+vLLM,CodeWriter,Qwen2.5-14B,D2,0.05,74.05276967930028
+vLLM,CodeWriter,Qwen2.5-14B,D2,0.1,69.89757575757575
+vLLM,CodeWriter,Qwen2.5-14B,D2,0.2,72.49446254071661
+vLLM,CodeWriter,Qwen2.5-14B,D2,0.5,69.9875
+vLLM,CodeWriter,Qwen2.5-14B,D2,1.0,71.74726027397259

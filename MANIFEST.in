@@ -1,0 +1,24 @@
+include LICENSE
+include requirements/common.txt
+include requirements/cuda.txt
+include requirements/rocm.txt
+include requirements/cpu.txt
+include CMakeLists.txt
+
+recursive-include cmake *
+recursive-include csrc *
+include README.vllm.md
+include rust-toolchain.toml
+recursive-include requirements *.txt
+recursive-include rust *
+recursive-include ae *.py
+recursive-include agent *.py
+recursive-include dataset *.json
+recursive-include scripts *.py *.md
+recursive-include data *.csv
+include README.md SOURCE.md
+include requirements.txt server.sh vllm_serving.py eurosys27-spring-paper407.pdf
+prune ae/results
+prune rust/target
+exclude vllm/vllm-rs
+global-exclude *.pyc *.pyo *.so *.o *.a

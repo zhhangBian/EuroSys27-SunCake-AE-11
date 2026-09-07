@@ -1,0 +1,4 @@
+mode,high_watermark,low_watermark,reserve_ratio,request_rate,avg_app_latency_s,throughput_rps,offload_events
+r0_75_hi0_05_lo0_02_step0_05,0.05,0.02,0.75,3,157.316982,0.053918803,9
+r0_75_hi0_06_lo0_02_step0_05,0.06,0.02,0.75,3,157.589385,0.054743400,6
+r0_75_hi0_08_lo0_02_step0_05,0.08,0.02,0.75,3,107.505876,0.073932841,0

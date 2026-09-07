@@ -1,0 +1,7 @@
+# Standalone dependencies for vllm_serving.py with --task code or research.
+# The server itself additionally requires a source installation of vLLM.
+numpy
+aiohttp
+openai >= 1.52.0
+httpx
+prometheus-client >= 0.18.0

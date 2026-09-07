@@ -1,0 +1,4 @@
+mode,request_rate,avg_app_latency_s,throughput_rps,offload_events
+offload_agent_best_fit,3,186.987752,0.047763986,8
+offload_agent_first_fit,3,152.629880,0.058259247,10
+offload_agent_priority_first,3,150.644360,0.056211872,8

@@ -1,0 +1,13 @@
+task,backend,request_rate,avg_app_latency_s
+code,suncake,0.1,1993.604890
+code,parrot,0.1,14250.709492
+code,suncake,0.2,2061.814386
+code,parrot,0.2,18602.630901
+code,suncake,1,2081.174380
+code,parrot,1,15331.558721
+research,suncake,0.1,496.111935
+research,parrot,0.1,3457.797849
+research,suncake,0.2,565.295911
+research,parrot,0.2,3724.494117
+research,suncake,1,646.316052
+research,parrot,1,4175.258535
