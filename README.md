@@ -1,5 +1,7 @@
 # SunCake EuroSys 2027 Artifact Evaluation
 
+[![DOI](https://zenodo.org/badge/1359005877.svg)](https://doi.org/10.5281/zenodo.22885971)
+
 This repository accompanies **SunCake: A KV-Cache-centric Serving Framework for
 LLM-based Multi-Agent Applications**, included as
 [`eurosys27-spring-paper407.pdf`](eurosys27-spring-paper407.pdf). Figure numbers below follow the included SunCake paper.
