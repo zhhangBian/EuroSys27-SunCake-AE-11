@@ -1,0 +1,5 @@
+mode,request_rate,avg_app_latency_s,throughput_rps,offload_events
+baseline,1.0,502.220044,0.009955795,0
+agent,1.0,424.813653,0.011660076,0
+offload,1.0,403.181311,0.012401368,1
+offload_agent,1.0,344.650123,0.014507466,0
