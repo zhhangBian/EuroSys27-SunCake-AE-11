@@ -1,0 +1,12 @@
+include LICENSE
+include README.vllm.md
+include vllm/_version.py
+include CMakeLists.txt
+
+recursive-include requirements *
+recursive-include cmake *
+recursive-include csrc *
+prune data
+prune ae_outputs
+exclude eurosys27-spring-paper407.pdf
+global-exclude *.pyc
